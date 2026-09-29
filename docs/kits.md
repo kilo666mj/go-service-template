@@ -6,10 +6,10 @@ instead of in each service. Pin a tagged release.
 
 | Module | Add it when the service | It owns | The service keeps |
 | --- | --- | --- | --- |
-| `github.com/kilo666mj/mcpkit` | exposes MCP tools | SDK server construction, stdio shutdown, Streamable HTTP limits, localhost and cross-origin defaults, tool annotations, in-memory test connections | Tool schemas, authentication, authorization, confirmation, audit, persistence |
-| `github.com/kilo666mj/oidcrp` | has a browser UI for people | The OIDC relying-party flow | Session storage through `SessionManager`, user policy |
-| `github.com/kilo666mj/tintwire-go` | sends notifications | Tintwire card delivery with optional Mattermost failover | Message content and notification policy |
-| `github.com/kilo666mj/pwa-kit` | sends web push to a PWA | Permission, subscription, VAPID and notification-click handling | Subscription storage, recipients, TTL and urgency, worker caching |
+| `go.michaelspost.com/mcpkit` | exposes MCP tools | SDK server construction, stdio shutdown, Streamable HTTP limits, localhost and cross-origin defaults, tool annotations, in-memory test connections | Tool schemas, authentication, authorization, confirmation, audit, persistence |
+| `go.michaelspost.com/oidcrp` | has a browser UI for people | The OIDC relying-party flow | Session storage through `SessionManager`, user policy |
+| `go.michaelspost.com/tintwire-go` | sends notifications | Tintwire card delivery with optional Mattermost failover | Message content and notification policy |
+| `go.michaelspost.com/pwa-kit` | sends web push to a PWA | Permission, subscription, VAPID and notification-click handling | Subscription storage, recipients, TTL and urgency, worker caching |
 
 ## MCP tools with mcpkit
 
