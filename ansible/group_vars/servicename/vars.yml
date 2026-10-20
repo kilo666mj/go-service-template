@@ -11,4 +11,4 @@ servicename_listen: "127.0.0.1:8080"
 # Built locally and copied to the host.
 servicename_goos: linux
 servicename_goarch: amd64
-servicename_go_toolchain: go1.27.1
+servicename_go_toolchain: go1.27.3
